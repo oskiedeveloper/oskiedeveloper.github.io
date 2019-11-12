@@ -1,0 +1,120 @@
+.header-wrap {
+    overflow: hidden;
+}
+.header-box {
+    background: #151719;
+}
+.header .box-inner {
+    border-right: 0px;
+}
+.header-text {
+    width: auto;
+    right: 235px;
+    bottom: 40px;
+    text-align: right;
+}
+.header-text h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #d2135e;
+}
+.header-text h2 {
+    font-size: 2.3em;
+    font-weight: 300;
+}
+.header-text a {
+    padding: 1em;
+    border-radius: 3px;
+    background: #363738;
+    font-weight: 400;
+}
+.header-text a:hover {
+    background: #d2135e;
+}
+.header-right {
+    height: 100vh;
+    width: 100%;
+    background-color: #d2135e;
+    z-index: -1;
+}
+.header-image {
+    position: absolute;
+    top: 0;
+    right: -20%;
+    z-index: 5;
+    max-width: 560px;
+}
+.header-label {
+    position: absolute;
+    color: #fff;
+    font-size: 10em;
+    bottom: 63%;
+    right: -40%;
+    font-weight: 900;
+    opacity: .96;
+    font-family: "Open Sans", sans-serif;
+    z-index: 2;
+}
+#fullpage {
+    transition-duration: 1.2s !important;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+a:visited {
+    color: inherit;
+}
+.grow {
+    transition-duration: .3s;
+}
+.timeline-info-heading {
+    margin-bottom: 1.5em;
+}
+.timeline-info-text p {
+    line-height: 1.6;
+    font-size: 0.96em;
+}
+.project .slider-arrow span {
+    display: block;
+    font-weight: 600;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.project .slider-arrow #toggle-work {
+    padding: 1em;
+    background:#fdcf24;
+    color: #333;
+    min-width: 180px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.timeline {
+    background-image: url('../images/work-banner.jpg');
+}
+.timeline-info-link a {
+    font-size: 0.9em;
+    text-decoration: underline;
+}
+.education-box {
+    padding: 10em 0;
+}
+.project h3 {
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+.project-wrap {
+    padding: 160px 0 130px !important;
+}
+.project .slider-arrow {
+    justify-content: center;
+}
+.quote-wrap {
+    padding: 120px 0 !important;
+}
+.main .nav-slidetop {
+    background: #ffd740;
+    color: #333;
+}
