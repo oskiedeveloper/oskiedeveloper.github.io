@@ -118,3 +118,16 @@ a:visited {
     background: #ffd740;
     color: #333;
 }
+.record {
+    background: #eaeaea;
+}
+.circle {
+    width: 70px;
+    height: 70px;
+}
+.testimonial-person {
+    margin: 0 1.5em;
+}
+.testimonial-person p {
+    font-size: 1.1em;
+}
