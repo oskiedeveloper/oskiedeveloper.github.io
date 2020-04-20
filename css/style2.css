@@ -1,3 +1,18 @@
+.section {
+    padding: 90px 0px;
+}
+.section.fp-section {
+    padding: 0px;
+}
+.section.header {
+    padding: 0px;
+}
+.header-logo {
+    position: absolute;
+    z-index: 999;
+    top: 30px;
+    left: 30px;
+}
 .header-wrap {
     overflow: hidden;
 }
@@ -27,7 +42,7 @@
 .header-text a {
     padding: 1em;
     border-radius: 3px;
-    background: #363738;
+    background: #d2135e;
     font-weight: 400;
 }
 .header-text a:hover {
@@ -36,29 +51,44 @@
 .header-right {
     height: 100vh;
     width: 100%;
-    background-color: #0f0f0f;
+    background-color: #d2135e;
+    background-image: url('../images/oskie-motor.jpg');
+    background-size: cover;
+    background-position: 20% center;
+    background-repeat: no-repeat;
     z-index: -1;
 }
 .header-image {
     position: absolute;
-    top: 0;
-    right: -20%;
+    bottom: -10px;
+    right: -320px;
     z-index: 5;
     max-width: 560px;
 }
 .header-label {
     position: absolute;
     color: #fff;
-    font-size: 10em;
-    bottom: 63%;
-    right: -40%;
+    font-size: 5em;
+    bottom: 50%;
+    right: -10%;
     font-weight: 900;
-    opacity: .85;
+    opacity: 1;
     font-family: "Open Sans", sans-serif;
-    z-index: 2;
+    z-index: 99;
+    max-width: 700px;
+    text-align: left;
     /* background: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg") repeat;
     background-position: 40% 50%;
     -webkit-background-clip: text; */
+}
+.header-label span {
+    text-shadow: 0px 2px 30px rgba(0,0,0,0.36);
+}
+.header-label span.pink {
+    color: #d2135e;
+}
+.header-text h2 {
+    font-size: 3.5em;
 }
 #fullpage {
     transition-duration: 1.2s !important;
@@ -137,4 +167,77 @@ a:visited {
 }
 .testimonial-person p {
     font-size: 1.1em;
+}
+.section.education {
+    padding: 0px;
+}
+.section.footer {
+    padding: 0px;
+}
+.footer-wrap {
+    background-image: linear-gradient(180deg,rgba(11, 11, 11, 0.85) 100%,#050505 100%),url(../images/frame-bg1.jpg)!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top: center;
+}
+.footer-credit {
+    background: #263238;
+}
+
+@media only screen and (max-width: 980px){
+    .header-label {
+        right: auto;
+        left: 7%;
+        bottom: 55%;
+    }
+    .header .box-inner {
+        padding: 30px;
+    }
+    .header-box {
+        overflow: hidden;
+    }
+    .header-image {
+        max-width: 450px;
+        right: -50px;
+    }
+    .header-text {
+        right: auto;
+        left: 5%;
+        bottom: 14%;
+        text-align: left;
+    }
+    .header-right {
+        display: none;
+    }
+}
+@media only screen and (max-width: 767px){
+    .header .box-inner {
+        padding: 220px 30px 180px;
+    }
+    .header-label {
+        position: relative;
+        left: 0;
+        font-size: 3.5em;
+    }
+    .header-text {
+        left: 0;
+    }
+    .header .home-wrap {
+        z-index: 99;
+    }
+    .header-image {
+        right: -130px;
+    }
+    .main .nav-box {
+        z-index: 99999;
+    }
+    .main .nav-icon {
+        right: 30px;
+        top: 30px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .header-text a {
+        margin-top: 2em;
+    }
 }
